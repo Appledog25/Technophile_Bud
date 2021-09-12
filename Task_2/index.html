@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1 id="head">Survey Form</h1>
+        <h2 id="subheading"><i>Thank you for taking the time to help us</i></h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label type="name">Name</label><br><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"><br><br>
+            <label>Email</label><br><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"><br><br>
+            <label>Age(optional)</label><br><br>
+            <input type="age" name="age" placeholder="Enter your age" class="box"><br><br>
+            <label>Are you satisfied with the teaching staff and their teaching methods?</label><br><br>
+
+
+            <div id="option1">
+                <select>
+                    <option name="select option">Select option</option>
+                    <option value="Extremely satisfied">Extremely satisfied</option>
+                    <option value="Very satisfied">Very satisfied</option>
+                    <option value="Satisfied">Satisfied</option>
+                    <option value="Neutral">Neutral</option>
+                    <option value="Dissatisfied">Dissatisfied</option>
+                    <option value="Very dissatisfied">Very dissatisfied</option>
+                    <option value="Extremely dissatisfied">Extremely dissatisfied</option>
+
+                </select>
+            </div>
+
+            <br>
+            <label id="head1">What do you think about extracurricular activities?</label><br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspThey are too few<br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspThey are just right<br> <br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspI was overwhelmed with the number<br> <br>
+            <label> Do you think faculty and support staff at the college were helpful?</label><br>
+            <br><br>
+            <div id="option2">
+                <select>
+                    <option name="select option">Select option</option>
+                    <option value="Very helpful">Very helpful</option>
+                    <option value="Helpful">Helpful</option>
+                    <option value="Neither helpful nor unhelpful">Neither helpful nor unhelpful</option>
+                    <option value="Unhelpful">Unhelpful</option>
+                    <option value="Very unhelpful">Very unhelpful</option>
+
+
+                </select>
+            </div>
+            <br>
+            <label id="head2">How likely are you to continue attending this college next year?</label>
+            <div id="content2">
+                <input type="checkbox" name="checkbox" class="larger"><label> Extremely ikely</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label> Very ikely</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label> Somewhat likely</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label> Not so likely</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label> Not at all likely</label><br><br>
+
+                <label id="head2">Please provide us with additional feedback on areas that need
+                    improvement</label><br><br>
+                <textarea placeholder="Enter your comment here..."></textarea><br>
+                <button>
+                    <h3>Submit</h3>
+                </button>
+            </div>
+    </form>
+</body>
+
+</html>
